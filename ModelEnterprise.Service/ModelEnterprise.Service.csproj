@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModelEnterprise.Dto\ModelEnterprise.Dto.csproj" />
+    <ProjectReference Include="..\ModelEnterprise.Infrastructure\ModelEnterprise.Infrastructure.csproj" />
+    <ProjectReference Include="..\ModelEnterprise.Integration\ModelEnterprise.Integration.csproj" />
+    <ProjectReference Include="..\ModelEnterprise.Plugin\ModelEnterprise.Plugin.csproj" />
+  </ItemGroup>
+
+</Project>
