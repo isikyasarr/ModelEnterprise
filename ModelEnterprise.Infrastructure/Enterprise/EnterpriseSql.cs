@@ -28,9 +28,10 @@ namespace ModelEnterprise.Infrastructure.Enterprise
             Dapper.DynamicParameters parameters = new();
             parameters.Add("@UserName", UserName, System.Data.DbType.String);
             var data = _mssqlService.GetAll<dynamic>("EXEC MainIssueList @UserName", parameters, System.Data.CommandType.Text);
-            //dasdasas
+      
             return data.ToList();
         }
+        //
         //public MainResult GetAllIssue(string UserName)
         //{
         //    MainResult result = new MainResult();
