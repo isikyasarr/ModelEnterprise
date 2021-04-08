@@ -21,9 +21,9 @@ namespace ModelEnterprise.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get(string UserName)
         {
-            var data = _service.Test().ToList();
+            var data = _service.GetAllIssue(UserName).ToList();
             return Ok(new
             {
                 data,

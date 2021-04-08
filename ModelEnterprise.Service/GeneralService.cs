@@ -22,5 +22,10 @@ namespace ModelEnterprise.Service
            return _enterpriseSql.InsertTab().ToList();
         }
 
+        public List<dynamic> GetAllIssue(string UserName)
+        {
+            return _enterpriseSql.GetAllIssue(UserName).ToList();
+        }
+
     }
 }
