@@ -32,6 +32,8 @@ namespace ModelEnterprise.Infrastructure.Enterprise
             return data.ToList();
         }
         //
+
+        //
         //public MainResult GetAllIssue(string UserName)
         //{
         //    MainResult result = new MainResult();
